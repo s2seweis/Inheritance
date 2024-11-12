@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Inheritance.InheritanceExample
 {
-    internal class IndexExample
+    internal class IndexExampleInheritance
     {
-        public IndexExample()
+        public IndexExampleInheritance()
         {
 
             IndexExampleMethod();

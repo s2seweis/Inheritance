@@ -5,6 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Inheritance.InheritanceExample;
 using Inheritance.AccessModifiersExample;
+using Inheritance.OverrideExample;
+using Inheritance.ConstructorExample;
+using Inheritance.SealedExample;
 
 namespace Inheritance
 {
@@ -12,9 +15,16 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            //IndexExample indexExample = new IndexExample();
+            //IndexExampleInheritance indexExample = new IndexExampleInheritance();
+            //IndexAccessModifiersExample example = new IndexAccessModifiersExample();
+            //IndexExampleOverride indexExampleOverride = new IndexExampleOverride();
 
-            IndexAccessModifiersExample example = new IndexAccessModifiersExample();
+            // calls the new object and the constructor of the new object calls the methods
+            //IndexConstructorExample indexConstructorExample = new IndexConstructorExample();
+            // calls the methods direct
+            //indexConstructorExample.IndexConstructorExampleMethod();
+
+            IndexSealedExample indexSealedExample = new IndexSealedExample();
 
             Console.ReadKey();
         }
